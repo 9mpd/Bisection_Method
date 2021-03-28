@@ -1,3 +1,9 @@
+Copyright (c) <2021>, <Narayan JeeJha>
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. 
+
 % Finding the root of a function, f(x), using Bisection Method
 % And also calculating the number of iterations required
 % f(x) = x*e^x - cos(x)
