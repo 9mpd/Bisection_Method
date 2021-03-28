@@ -19,8 +19,7 @@ f=str2func(['@(x)',f1]);
 fprintf('f(x) is : %s = 0\n',func2str(f));
 
 for t=0:100
-    if
-        (f(t)>0 && f(t+1)<0)||(f(t)<0 && f(t+1)>0)
+    if (f(t)>0 && f(t+1)<0)||(f(t)<0 && f(t+1)>0)
         break;
     end
 end
